@@ -1,3 +1,8 @@
+provider "google" {
+  project     = "cts03-harshavardan"
+  region      = "us-central1"
+}
+
 resource "google_compute_instance" "default" {
   name         = "my-vm"
   machine_type = "n1-standard-1"
