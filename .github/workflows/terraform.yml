@@ -40,5 +40,5 @@ jobs:
       run: terraform plan -input=false
 
     # Applying the configuration
-    - name: Terraform apply
+    - name: Terraform apply -auto-approve
       run: terraform apply
