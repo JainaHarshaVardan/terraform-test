@@ -1,6 +1,7 @@
 provider "google" {
   project     = "cts03-harshavardan"
   region      = "us-central1"
+ credentials = "sa.json"
 }
 
 resource "google_compute_instance" "default" {
